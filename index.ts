@@ -30,7 +30,7 @@ const doNothing: Plugin = {
 async function preProcess(
     _pluginContext: PluginContext
 ): Promise<PreProcessHandler | undefined> {
-    console.log('preprocess');
+    // console.log('preprocess');
     return (contents: Schema[]): Schema[] => {
         // writeFileSync('content.json', JSON.stringify(contents, null, 2));
         contents.forEach(({ content, type }) => {
@@ -62,7 +62,7 @@ async function preProcess(
                                             properties[propertyName];
                                         return ret;
                                     }, {});
-                                    console.log(name, schema.properties);
+                                    // console.log(name, schema.properties);
                                 }
                             }
                         }

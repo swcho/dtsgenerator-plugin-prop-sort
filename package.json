@@ -1,6 +1,6 @@
 {
   "name": "dtsgenerator-plugin-prop-sort",
-  "version": "3.15.1",
+  "version": "3.15.1-2",
   "description": "Json schema property sort",
   "main": "index.js",
   "publishConfig": {
