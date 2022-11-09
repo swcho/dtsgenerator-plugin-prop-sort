@@ -1,0 +1,20 @@
+.git/
+.github/
+.vscode/
+
+# for npm
+node_modules/
+
+# codes
+test/
+
+# misc
+.coveralls.yml
+.editorconfig
+.gitignore
+.nyc_output/
+build/
+coverage/
+*.tsbuildinfo
+
+npm-debug.log
