@@ -1,7 +1,7 @@
 {
-  "name": "@dtsgenerator/do-nothing",
-  "version": "2.5.2",
-  "description": "do nothing plugin",
+  "name": "dtsgenerator-plugin-prop-sort",
+  "version": "3.15.1",
+  "description": "Json schema property sort",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
@@ -27,7 +27,7 @@
     "dtsgenerator",
     "dtsgenerator-plugin"
   ],
-  "author": "Horiuchi Hiroki <horiuchi.g@gmail.com> (https://github.com/horiuchi)",
+  "author": "Sungwoo <sungwoo.cho.dev@gmail.com> (https://github.com/swcho)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dtsgenerator/do-nothing/issues"

@@ -1,7 +1,6 @@
-# @dtsgenerator/do-nothing
+# dtsgenerator-plugin-prop-sort
 
-This is the `dtsgenerator` plugin.
-Do nothing for test of configuration.
+This is the `dtsgenerator` plugin for sorting schema properties.
 
 # Install
 
@@ -15,7 +14,7 @@ npm install @dtsgenerator/do-nothing
 ```json
 {
     "plugins": {
-        "@dtsgenerator/do-nothing": true
+        "@dtsgenerator-plugin-prop-sort": true
     }
 }
 ```
